@@ -22,7 +22,7 @@ async function main() {
         });
 
     } catch (error) {
-
+        console.log(error);
     }
     document.querySelector('body').classList.remove('loading');
 }
